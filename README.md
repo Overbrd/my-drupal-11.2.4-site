@@ -38,7 +38,7 @@ III. Occasionally run the following command to ensure WSL2 is up to date:
 
 ```wsl.exe --update```
 
-3. Start Docker Desktop from Windows Start Menu and verify that it’s working by running: in PowerShell or Git Bash.
+3. Start Docker Desktop from Windows Start Menu and verify that it’s working by running (in PowerShell):
 
 ```docker ps```
 
@@ -54,11 +54,13 @@ In Docker Desktop, navigate to Settings → Resources → WSL2 Integration, and 
 
 ```curl -fsSL https://raw.githubusercontent.com/ddev/ddev/master/scripts/install_ddev.sh | bash```
 
-## Set Up Drupal 11 with DDEV
+## Set Up Drupal 11 with DDEV using Ubuntu Terminal
 
 1. Create a new directory for your Drupal site and navigate into it:
 
-```mkdir my-drupal-site && cd my-drupal-site```
+```mkdir my-drupal-site```
+
+```cd my-drupal-site```
 
 2. Configure the DDEV project:
 
@@ -96,5 +98,12 @@ Alternatively, you can automatically login with:
 
 ```ddev launch $(ddev drush uli)```
 
+## Once everything is up and running:
+
+Your Windows Explorer file path is below:
+
+\\wsl.localhost\Ubuntu\home\(user name)\my-drupal-site
+
+Note: you must copy and paste the address into the Windows Explorer address bar and click enter to see the actual files in Windows Explorer; you cannot find it starting from the C: drive (wsl.localhost is not visible when looking at the contents of the C: drive).
 
 
