@@ -46,7 +46,7 @@ I. Download and install Docker Desktop on your Windows system.
 
 II. Start Docker Desktop and verify that it’s working by running: in PowerShell or Git Bash.
 
-docker ps
+```docker ps```
 
 III. In Docker Desktop, navigate to Settings → Resources → WSL2 Integration, and verify that Docker Desktop is integrated with your Ubuntu distro.
 
