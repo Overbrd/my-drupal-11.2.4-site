@@ -6,7 +6,7 @@
 
 4. install WSL2 and Ubuntu
 
-`wsl --install
+```wsl --install```
 
 ---
 
