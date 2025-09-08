@@ -38,7 +38,7 @@ III. Occasionally run the following command to ensure WSL2 is up to date:
 
 ```wsl.exe --update```
 
-3. Start Docker Desktop and verify that it’s working by running: in PowerShell or Git Bash.
+3. Start Docker Desktop from Windows Start Menu and verify that it’s working by running: in PowerShell or Git Bash.
 
 ```docker ps```
 
