@@ -22,13 +22,13 @@
 
 I. Open PowerShell as Administrator and run the following command to install WSL2:
 
-wsl - install
+```wsl - install```
 
 II. Reboot your system if required (usually necessary after installation).
 
 III. Verify that you have an Ubuntu distro set as the default by running:
 
-wsl.exe -l -v
+```wsl.exe -l -v```
 
 2. Configure Windows Update Settings
 
@@ -38,7 +38,7 @@ II. Enable Receive updates for other Microsoft products.
 
 III. Occasionally run the following command to ensure WSL2 is up to date:
 
-wsl.exe --update
+```wsl.exe --update```
 
 3. Install Docker Desktop
 
@@ -56,51 +56,51 @@ I. Open the Ubuntu terminal (you can use the Ubuntu terminal app or Windows Term
 
 II. Install DDEV by running one of the following commands:
 
-sudo apt-get install ddev
+```sudo apt-get install ddev```
 
-curl -fsSL https://raw.githubusercontent.com/ddev/ddev/master/scripts/install_ddev.sh | bash
+```curl -fsSL https://raw.githubusercontent.com/ddev/ddev/master/scripts/install_ddev.sh | bash```
 
 5. Set Up Drupal 11 with DDEV
 
 I. Create a new directory for your Drupal site and navigate into it:
 
-mkdir my-drupal-site && cd my-drupal-site
+```mkdir my-drupal-site && cd my-drupal-site```
 
 II. Configure the DDEV project:
 
-ddev config --project-type=drupal --php-version=8.3 --docroot=web
+```ddev config --project-type=drupal --php-version=8.3 --docroot=web```
 
 III. Start DDEV:
 
-ddev start
+```ddev start```
 
 VI. Create a new Drupal project using Composer:
 
-ddev composer create drupal/recommended-project:^11
+```ddev composer create drupal/recommended-project:^11```
 
 V. Require Drush, the Drupal command-line tool:
 
-ddev composer require drush/drush
+```ddev composer require drush/drush```
 
 VI. Update the DDEV configuration:
 
-ddev config --update
+```ddev config --update```
 
 VII. Restart DDEV to apply the changes:
 
-ddev restart
+```ddev restart```
 
 VIII. Install Drupal using Drush:
 
-ddev drush site:install --account-name=admin --account-pass=admin -y
+```ddev drush site:install --account-name=admin --account-pass=admin -y```
 
 IX. Launch your Drupal site in the browser:
 
-ddev launch
+```ddev launch```
 
 Alternatively, you can automatically login with:
 
-ddev launch $(ddev drush uli)
+```ddev launch $(ddev drush uli)```
 
 
 
