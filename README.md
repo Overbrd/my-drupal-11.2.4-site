@@ -6,6 +6,14 @@
 
 3. Run updates
 
+Check for updates without applying them:
+
+```-k, --check-only```
+
+Quietly check and apply updates:
+
+```-q, --quiet```
+
 4. Install WSL2 and Ubuntu
 
 ```wsl --install```
