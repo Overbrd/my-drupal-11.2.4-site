@@ -1,4 +1,4 @@
-# How to Install Drupal 11 on a Windows Machine
+# How to Install Drupal 11 on a Windows Machine (uses PHP 8.3 or above and it must be installed first)
 
 1. Download Docker Desktop for Windows
 
