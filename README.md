@@ -1,4 +1,22 @@
-How to Install Drupal 11 using DDEV on Windows with WSL2:
+1. download docker desktop for windows
+
+2. open powershell as admin
+
+3. run updates
+
+4. install WSL2 and Ubuntu
+
+`wsl --install
+
+---
+
+1. open docker desktop
+
+2. open ubuntu
+
+3. run commands in ubuntu
+
+---How to Install Drupal 11 using DDEV on Windows with WSL2:
 
 1. Set Up WSL2 with an Ubuntu Distrubution
 
