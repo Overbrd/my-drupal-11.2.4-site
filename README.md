@@ -1,6 +1,6 @@
 How to Install Drupal 11 using DDEV on Windows with WSL2:
 
-1. Set Up WSL2 with an Ubuntu Distro
+1. Set Up WSL2 with an Ubuntu Distrubution
 
 I. Open PowerShell as Administrator and run the following command to install WSL2:
 
