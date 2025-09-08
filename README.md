@@ -8,11 +8,15 @@
 
 Check for updates without applying them:
 
-```-k, --check-only```
+```docker desktop update```
+
+Check for updates without applying them:
+
+```docker desktop update -k --check-only```
 
 Quietly check and apply updates:
 
-```-q, --quiet```
+```docker desktop update -q --quiet```
 
 4. Install WSL2 and Ubuntu
 
