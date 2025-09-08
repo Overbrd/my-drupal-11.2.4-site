@@ -6,7 +6,7 @@
 
 3. Run updates
 
-Check for updates without applying them:
+Check for updates:
 
 ```docker desktop update```
 
