@@ -2,7 +2,7 @@
 
 1. Download Docker Desktop for Windows
 
-2. Open Powershell as admin
+2. Open Powershell as Admin (go to this directory to use Powershell properly: C:\WINDOWS\system32>)
 
 3. Run updates
 
@@ -74,7 +74,7 @@ In Docker Desktop, navigate to Settings → Resources → WSL2 Integration, and 
 
 ```ddev start```
 
-4. Create a new Drupal project using Composer:
+4. Create a new Drupal project using Composer (https://getcomposer.org/download/):
 
 ```ddev composer create drupal/recommended-project:^11```
 
