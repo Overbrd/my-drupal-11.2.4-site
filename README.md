@@ -1,18 +1,18 @@
-#How to Install Drupal 11 on a Winodws Machine
+# How to Install Drupal 11 on a Winodws Machine
 
-1. download docker desktop for windows
+1. Download Docker Desktop for Windows
 
-2. open powershell as admin
+2. Open Powershell as admin
 
-3. run updates
+3. Run updates
 
-4. install WSL2 and Ubuntu
+4. Install WSL2 and Ubuntu
 
 ```wsl --install```
 
 5. Reboot your system if required (usually necessary after installation).
 
-##Once WSL2 and Ubuntu are Installed
+## Once WSL2 and Ubuntu are Installed
 
 1. Verify that you have an Ubuntu distro set as the default by running:
 
@@ -34,7 +34,7 @@ III. Occasionally run the following command to ensure WSL2 is up to date:
 
 In Docker Desktop, navigate to Settings → Resources → WSL2 Integration, and verify that Docker Desktop is integrated with your Ubuntu distro.
 
-##Install DDEV
+## Install DDEV
 
 1. Open the Ubuntu terminal (you can use the Ubuntu terminal app or Windows Terminal).
 
@@ -44,7 +44,7 @@ In Docker Desktop, navigate to Settings → Resources → WSL2 Integration, and 
 
 ```curl -fsSL https://raw.githubusercontent.com/ddev/ddev/master/scripts/install_ddev.sh | bash```
 
-##Set Up Drupal 11 with DDEV
+## Set Up Drupal 11 with DDEV
 
 1. Create a new directory for your Drupal site and navigate into it:
 
