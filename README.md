@@ -1,4 +1,4 @@
-# How to Install Drupal 11 on a Winodws Machine
+# How to Install Drupal 11 on a Windows Machine
 
 1. Download Docker Desktop for Windows
 
