@@ -16,6 +16,8 @@ Quietly check and apply updates:
 
 4. Install WSL2 and Ubuntu
 
+This command will automatically enable all the necessary Windows features required for WSL, install the Linux kernel update for WSL2, download the Ubuntu distribution (by default), and install it in WSL.
+
 ```wsl --install```
 
 5. Reboot your system if required (usually necessary after installation).
