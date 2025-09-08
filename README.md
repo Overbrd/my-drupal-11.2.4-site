@@ -24,7 +24,7 @@ This command will automatically enable all the necessary Windows features requir
 
 ## Once WSL2 and Ubuntu are Installed
 
-1. Verify that you have an Ubuntu distro set as the default by running:
+1. Verify that you have an Ubuntu distro set as the default by running (in Ubuntu Terminal):
 
 ```wsl.exe -l -v```
 
@@ -34,7 +34,7 @@ I. Go to Windows Update Settings → Advanced Options.
 
 II. Enable Receive updates for other Microsoft products.
 
-III. Occasionally run the following command to ensure WSL2 is up to date:
+III. Occasionally run the following command to ensure WSL2 is up to date (in Ubuntu Terminal):
 
 ```wsl.exe --update```
 
@@ -46,7 +46,7 @@ In Docker Desktop, navigate to Settings → Resources → WSL2 Integration, and 
 
 ## Install DDEV
 
-1. Open the Ubuntu terminal (you can use the Ubuntu terminal app or Windows Terminal).
+1. Using the Ubuntu Terminal (you can use the Ubuntu Terminal app or Windows Terminal).
 
 2. Install DDEV by running one of the following commands:
 
