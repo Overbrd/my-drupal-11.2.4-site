@@ -110,4 +110,28 @@ Your Windows Explorer file path is below:
 
 Note: you must copy and paste the address into the Windows Explorer address bar and click enter to see the actual files in Windows Explorer; you cannot find it starting from the C: drive (wsl.localhost is not visible when looking at the contents of the C: drive).
 
+## Drupal 11 Site Info
+
+Your URL to view the Drupal 11 Site will be:
+
+```https://my-drupal-site.ddev.site/```
+
+Your URL to login to the Drupal Admin section will be:
+
+```https://my-drupal-site.ddev.site/user/login```
+
+Your initial user name and password for the Drupal Admin section will be:
+
+```admin```
+
+```admin```
+
+Note: The Drupal 11 site will be empty until you add content.
+
+
+
+
+
+
+
 
