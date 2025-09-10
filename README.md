@@ -106,7 +106,7 @@ Alternatively, you can automatically login with:
 
 Your Windows Explorer file path is below:
 
-\\wsl.localhost\Ubuntu\home\(user name)\my-drupal-site
+\\wsl.localhost\Ubuntu\home\user_name_here\my-drupal-site
 
 Note: you must copy and paste the address into the Windows Explorer address bar and click enter to see the actual files in Windows Explorer; you cannot find it starting from the C: drive (wsl.localhost is not visible when looking at the contents of the C: drive).
 
