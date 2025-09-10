@@ -128,6 +128,16 @@ Your initial user name and password for the Drupal Admin section will be:
 
 Note: The Drupal 11 site will be empty until you add content.
 
+Status report:
+
+```/admin/reports/status```
+
+Cron:
+
+```/admin/config/system/cron```
+
+
+
 
 
 
