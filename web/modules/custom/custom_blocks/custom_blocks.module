@@ -1,0 +1,11 @@
+<?php
+function custom_blocks_theme($existing, $type, $theme, $path): array {
+  return [
+    'example_block' => [
+        'variables' => [
+            'site_name' => NULL,
+            'message' => NULL,
+        ]
+     ],
+  ];
+}
