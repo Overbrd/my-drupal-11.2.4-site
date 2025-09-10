@@ -136,6 +136,42 @@ Cron:
 
 ```/admin/config/system/cron```
 
+## Start Up Site from Clean Reboot
+
+Start Docker Desktop
+
+Start Ubuntu Terminal (run as Admin)
+
+In Ubuntu Terminal:
+
+```cd my-drupal-site```
+
+```ddev start```
+
+In web browser:
+
+1. Go to https://my-drupal-site.ddev.site/
+
+to confirm site is up and running.
+
+2. Go to https://my-drupal-site.ddev.site/user/login
+
+to confirm you can log in.
+
+In Ubuntu Terminal:
+
+```ddev drush -v```
+
+to confirm Drush is up and running.
+
+```ddev composer -v```
+
+to confirm Composer is up and running.
+
+Note: you must always preface commands with ```ddev``` for those commands to work.
+
+
+
 
 
 
